@@ -10,7 +10,7 @@ public class Browsermethods {
 		System.setProperty("webdriver.chrome.driver", "E:\\Eclipse setup files\\Eclipse\\Workspace\\Basicjava\\Chromedriver\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
-		
+		//new
 		driver.get("http://newtours.demoaut.com/");
 		//driver.close();
 		driver.quit();
