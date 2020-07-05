@@ -11,7 +11,7 @@ public class Getmethods {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 System.setProperty("webdriver.chrome.driver", "E:\\Eclipse setup files\\Eclipse\\Workspace\\Basicjava\\Chromedriver\\chromedriver.exe");
-
+//new commit
 WebDriver driver = new ChromeDriver();
 
 driver.get("http://newtours.demoaut.com/");
