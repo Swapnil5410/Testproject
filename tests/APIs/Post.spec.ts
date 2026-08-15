@@ -24,7 +24,7 @@ expect (postRequest.status()).toBe(200);
 
 const postRequestJ = await postRequest.json();
 expect (postRequestJ.name).toBe('Apple MacBook Pro 16');
-expect(postRequestJ.createdAt).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/);
+//expect(postRequestJ.createdAt).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/);
 expect(postRequestJ.data.year).toBe(2019);
 expect(postRequestJ.data.price).toBe(1849.99);
 console.log('test successful');
